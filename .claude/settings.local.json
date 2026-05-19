@@ -3,7 +3,12 @@
     "allow": [
       "Bash(Get-ChildItem -Path \"C:\\\\work\\\\demo\\\\Obsidian\\\\Demo Vault\\\\Demo Vault\" -Recurse -Depth 3)",
       "Bash(Select-Object FullName, PSIsContainer)",
-      "Bash(Format-Table -AutoSize)"
+      "Bash(Format-Table -AutoSize)",
+      "Bash(gh repo *)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(gh api *)",
+      "WebFetch(domain:api.github.com)"
     ]
   }
 }
